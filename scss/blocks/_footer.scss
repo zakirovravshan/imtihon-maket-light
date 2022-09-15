@@ -1,0 +1,229 @@
+.site-footer {
+    background-color: #3D4F64;
+}
+
+.footer__inner {
+    padding-top: 41px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.technolight {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 164%;
+
+
+    color: #FFFFFF;
+}
+
+.box__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.box__item {
+    padding: 0;
+}
+
+.box__title {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 214%;
+    color: #FFFFFF;
+}
+
+.box-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    text-decoration: none;
+}
+
+.box-link--first {
+    text-decoration: underline;
+    color: #FFC94F;
+}
+
+.box__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #FFFFFF;
+}
+.box__tel{
+    position: relative;
+}
+.box__tel::before{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../images/phone.svg);
+    background-repeat: no-repeat;
+    top: 0px;
+    left: -20px;
+    content: "";
+}
+
+.box__email{
+    position: relative;
+}
+.box__email::before{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../images/email.svg);
+    background-repeat: no-repeat;
+    top: 0px;
+    left: -20px;
+    content: "";
+}
+.box__loc{
+    position: relative;
+}
+.box__loc::before{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(../../images/Пин.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    top: 0px;
+    left: -25px;
+    content: "";
+}
+
+@media only screen and (max-width: 600px){
+    .site-footer {
+        background-color: #3D4F64;
+    }
+    
+    .footer__inner {
+        padding-top: 19px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .box-1{
+        width: 300px;
+    }
+    .technolight {
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 164%;
+    
+    
+        color: #FFFFFF;
+    }
+    .box-2{
+        margin-bottom: 24px;
+    }
+    .box__list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .box__list__contacts{
+        margin-left: 20px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+    
+    .box__item {
+        padding: 0;
+        width: 100%;
+        max-width: 160px;
+    }
+    
+    .box__title {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 214%;
+        color: #FFFFFF;
+    }
+    
+    .box-link {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 200%;
+        text-decoration: none;
+    }
+    
+    .box-link--first {
+        text-decoration: underline;
+        color: #FFC94F;
+    }
+    
+    .box__link {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 214%;
+        color: #FFFFFF;
+    }
+    .box-contact{
+        // display: flex;
+        // align-items: center;
+        // justify-content: space-between;
+    }
+    .box__tel{
+        width: 100%;
+        max-width: 140px;
+        position: relative;
+    }
+    .box__tel::before{
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background-image: url(../../images/phone.svg);
+        background-repeat: no-repeat;
+        top: 5px;
+        left: -20px;
+        content: "";
+    }
+    
+    .box__email{
+        width: 100%;
+        max-width: 140px;
+        position: relative;
+    }
+    .box__email::before{
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background-image: url(../../images/email.svg);
+        background-repeat: no-repeat;
+        top: 5px;
+        left: -20px;
+        content: "";
+    }
+    .box__loc{
+        width: 100%;
+        max-width: 140px;
+        position: relative;
+    }
+    .box__loc::before{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        background-image: url(../../images/Пин.svg);
+        background-repeat: no-repeat;
+        background-size: 25px 25px;
+        top: 5px;
+        left: -25px;
+        content: "";
+    }
+}
