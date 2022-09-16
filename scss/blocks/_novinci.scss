@@ -1,0 +1,316 @@
+ 
+ .novinci__inner__span{ 
+   display: inline-block;
+    width: 5px; 
+    height: 25px; 
+    background: #FFC94F; 
+    margin-right: 10px;
+ } 
+ .novinci__inner__title{ 
+
+    display: inline-block; 
+    font-weight: 800;
+font-size: 30px;
+line-height: 133%;
+color: #535353; 
+margin-bottom: 43px;
+ } 
+ .novinci__inner__list{ 
+     list-style: none; 
+     padding-left: 0;
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 82px;
+ } 
+ .novinci__inner__item{ 
+
+    width: 100%; 
+    max-width: 304px; 
+    background-color: #FFFFFF;
+ }  
+ .novinci__inner__item-activ{ 
+
+    display: none;
+ }
+  
+ .novinci__inner__item__span{ 
+     width: 50px;
+    display: block;  
+    background: #FFC94F;
+    border-radius: 0px 0px 2px 0px;
+    padding: 3px 13px; 
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px; 
+    color: #3D4F64; 
+    margin-bottom: 88px;  
+
+ }  
+
+ .novinci__inner__item__spanchik { 
+
+      margin-bottom: 23px;
+ }
+ .novinci__inner__item__img{ 
+
+    width: 256px; 
+    height: 96px; 
+    margin: 0 19px; 
+    margin-bottom: 64px;
+    
+ } 
+
+ .novinci__inner__item__img__activ{ 
+    margin: 0 86px 44px 96px;
+    width: 128px; 
+    height: 181px;  
+} 
+.novinci__inner__subtitle{  
+    padding: 0 17px 0 21px;
+     margin-bottom: 13px;
+    font-weight: 700;
+font-size: 14px;
+line-height: 157%;
+color: #535353;
+} 
+.novinci__inner__blog{ 
+     
+    padding: 0 17px 0 21px; 
+    display: flex; 
+    align-items: center;
+}  
+.novinci__inner__blog__span{ 
+
+    display: inline-block; 
+    width: 6px; 
+    height: 6px; 
+    background: #FFC94F;
+    border-radius: 3px;  
+    margin-right: 6px; 
+    margin-bottom: 10px;
+
+}
+.novinci__inner__blog__text{  
+    width: 100%; 
+    max-width: 247px;
+  display: inline-block;
+    font-weight: 300;
+font-size: 14px;
+line-height: 150%;
+color: #8C8C8C; 
+margin-bottom: 10px;
+} 
+
+.novinci__inner__blog__spanjon{ 
+
+    display: inline-block; 
+    font-weight: 700;
+font-size: 20px;
+line-height: 105%;
+color: #535353; 
+margin-left: 21px; 
+margin-bottom: 60px;
+ 
+} 
+.novinci__inner__blog-sp{ 
+
+    font-weight: 700;
+font-size: 20px;
+line-height: 105%;
+color: #F3C650;
+} 
+.novinci__inner__blog__link{ 
+     border: 1px solid #EAEAEA;
+    display: flex; 
+    align-items: center; 
+    
+} 
+.novinci__inner__link{  
+margin-right: 30px;
+text-decoration: none; 
+padding: 15px 75px; 
+background: #3D4F64;
+border-radius: 0px 0px 0px 2px; 
+font-weight: 600;
+font-size: 14px;
+line-height: 45px;
+color: #FFFFFF;
+} 
+.novinci__inner__link__activ{ 
+
+    background: #EFEFEF;
+} 
+.novinci__inner__blocks{ 
+
+    text-align: center; 
+    margin-bottom: 80px;
+} 
+.novinci__inner__blocks__link{ 
+  text-decoration: none;
+    width: 214px; 
+    padding: 13px 36px; 
+    background: #F3C650;
+    border-radius: 2px; 
+    font-weight: 700;
+     font-size: 14px;
+    line-height: 17px;
+    color: #535353; 
+   
+} 
+ 
+
+
+@media only screen and (max-width:600px){ 
+
+  
+     
+ .novinci__inner__span{ 
+    display: none;
+  } 
+  .novinci__inner__title{ 
+ 
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 222%;
+    color: #535353; 
+    margin-bottom: 16px;
+  } 
+  .novinci__inner__list{ 
+     
+     flex-wrap: wrap;
+     margin-bottom: 40px;
+  } 
+  .novinci__inner__item{ 
+ 
+     width: 100%; 
+     max-width: 285px;  
+     margin-bottom: 10px;
+    
+  }  
+  .novinci__inner__item-deactiv{ 
+
+    display: none;
+  } 
+  .novinci__inner__item-activ{ 
+
+    display: inline-block;
+ }
+  
+   
+  .novinci__inner__item__span{ 
+      width: 36px;
+     display: block;  
+     background: #FFC94F;
+     border-radius: 0px 0px 2px 0px;
+     padding: 2px 9px; 
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 24px;
+     color: #3D4F64; 
+     margin-bottom: 82px;  
+ 
+  }  
+ 
+  .novinci__inner__item__spanchik { 
+ 
+       margin-bottom: 16px;
+  }
+  .novinci__inner__item__img{ 
+ 
+     width: 256px; 
+     height: 96px; 
+     margin: 0 19px; 
+     margin-bottom: 64px;
+     
+  } 
+ 
+  .novinci__inner__item__img__activ{ 
+     margin: 0 86px 44px 96px;
+     width: 128px; 
+     height: 181px;  
+ } 
+ .novinci__inner__subtitle{  
+     padding: 0 17px 0 21px;
+      margin-bottom: 13px;
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 164%;
+ } 
+ .novinci__inner__blog{ 
+      
+    display: none;
+ }  
+ .novinci__inner__blog__span{ 
+ 
+     display: inline-block; 
+     width: 6px; 
+     height: 6px; 
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 21px; 
+     color: #535353;
+ 
+ }
+ .novinci__inner__blog__text{  
+     width: 100%; 
+     max-width: 247px;
+   display: inline-block;
+     font-weight: 300;
+ font-size: 14px;
+ line-height: 150%;
+ color: #8C8C8C; 
+ margin-bottom: 10px;
+ } 
+ 
+ .novinci__inner__blog__spanjon{ 
+ 
+     display: inline-block; 
+     font-weight: 700;
+ font-size: 20px;
+ line-height: 105%;
+ color: #535353; 
+ margin-left: 21px; 
+ margin-bottom: 60px;
+  
+ } 
+ .novinci__inner__blog-sp{ 
+ 
+     font-weight: 700;
+ font-size: 20px;
+ line-height: 105%;
+ color: #535353;
+ } 
+ .novinci__inner__blog__link{ 
+      border: 1px solid #EAEAEA;
+     display: flex; 
+     align-items: center; 
+     
+ } 
+ .novinci__inner__link{  
+ margin-right: 30px;
+ text-decoration: none; 
+ padding: 10px 75px; 
+ background: #3D4F64;
+ border-radius: 0px 0px 0px 2px; 
+ font-weight: 600;
+font-size: 12px;
+line-height: 45px;
+ color: #FFFFFF;
+ } 
+ .novinci__inner__link__activ{ 
+ background-color: #FFFFFF; 
+ } 
+ .novinci__inner__blocks{ 
+ 
+     text-align: center; 
+     margin-bottom: 40px;
+ } 
+ .novinci__inner__blocks__link{ 
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 17px;
+     
+    
+ } 
+
+}
