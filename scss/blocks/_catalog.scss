@@ -1,0 +1,154 @@
+ 
+ .catalog__span{ 
+     display: inline-block;
+    width: 5px; 
+    height: 25px; 
+    background: #FFC94F; 
+    margin-right: 10px;
+ } 
+ .catalog__title{  
+    margin: 0;
+    display: inline-block;  
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 133%;
+    color: #535353; 
+    margin-bottom: 64px;
+ } 
+ .catalog__inner{ 
+
+    display: flex; 
+    justify-content: space-between;
+ } 
+ .catalog__inner__subtitle{ 
+
+    margin-top: 25px;
+    font-weight: 700;
+font-size: 18px;
+line-height: 133%;
+color: #FFC94F; 
+margin-bottom: 25px;
+ } 
+
+ .catalog__inner__text{ 
+  width: 100%; 
+  max-width: 287px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 157%;
+color: #8C8C8C; 
+margin-bottom: 25px;
+ } 
+ .catalog__inner__link{ 
+
+    width: 100%; 
+    max-width: 280px;  
+    background: #3D4F64;
+    border-radius: 2px;
+    padding: 13px 69px; 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF; 
+    margin-bottom: 21px; 
+    text-decoration: none;
+ } 
+ .catalog__inner__list{ 
+
+    width: 100%; 
+    max-width: 287px; 
+
+ } 
+ .catalog__inner__item{ 
+
+    font-weight: 700;
+font-size: 14px;
+line-height: 157%;
+color: #535353; 
+ padding: 24px 0; 
+  border-bottom: 2px solid #EFEFEF; 
+    
+  &:nth-child(4){ 
+    border-bottom: none; 
+    margin-bottom: 0;
+  }
+ } 
+
+ .catalog__blog__img{ 
+
+    margin: 0;
+ } 
+ .catalog__img{ 
+
+    margin: 0; 
+    width: 100%; 
+    max-width: 960px;  
+ } 
+ @media only screen and (max-width:600px){ 
+ 
+    .catalog__span{ 
+        display: none;
+       
+    } 
+    .catalog__title{  
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 40px; 
+        margin-bottom: 15px; 
+      
+    } 
+    .catalog__inner{ 
+   
+       display: flex; 
+        flex-direction: column;
+    }  
+    .catalog__inner__blockss{ 
+
+        padding-left: 15px;
+    }
+    .catalog__inner__subtitle{ 
+   
+     margin: 0; 
+     padding-bottom: 16px; 
+    font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+    } 
+   
+    .catalog__inner__text{ 
+   display: none;
+    } 
+    .catalog__inner__link{ 
+   
+      display: none;
+    } 
+    .catalog__inner__list{ 
+   
+       width: 100%; 
+       max-width: 600px; 
+   
+    } 
+    .catalog__inner__item{ 
+   
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+    padding: 16px 0; 
+     border-bottom: 2px solid #EFEFEF; 
+       
+     &:nth-child(4){ 
+       border-bottom: none; 
+       margin-bottom: 0;
+     }
+    } 
+   
+    .catalog__blog__img{ 
+        display: none;
+       
+    } 
+    .catalog__img{ 
+      display: none;
+        
+    } 
+
+ }
